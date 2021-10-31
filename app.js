@@ -20,4 +20,4 @@ app.post("/check",(req,res)=>{
     console.log(suggestions);
     res.send(suggestions);
 });
-app.listen(4000);
+app.listen(process.env.PORT);
