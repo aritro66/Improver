@@ -11,7 +11,7 @@ export default function Grammer() {
   async function checker() {
 
     const options = {
-      url: "https://wer123.herokuapp.com/check",
+      url: "https://improverbackend.onrender.com/check",
       method: "POST",
       withCredentials: true,
       data: {
